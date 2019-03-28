@@ -1,0 +1,37 @@
+body{
+    background-image: url('criacao-de-videos.gif');
+background-size: cover;
+    padding-top: 50px;
+}
+h1{
+    color:floralwhite;
+    font-variant: small-caps;
+}
+
+img{
+    padding-left: 590px;
+    opacity: 0.9;
+    border-radius: 25px; 
+}
+a{
+    padding-left: 235px;
+    padding-top: 300px;
+    opacity: 0.8;
+}
+im{
+    padding-left: 700px;
+    border-radius: 50px;
+}
+p{
+    padding-top: 300px;
+    color: white;
+    font-size: 25px;
+    padding-left: 846px;
+}
+/*a{
+    border: 3px solid white;
+    color: floralwhite;
+    text-align: center;
+    font-size: 30px;
+    <div style="text-align: center"><a href="register.php" >ENTER</a></div>
+}*/

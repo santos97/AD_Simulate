@@ -1,0 +1,49 @@
+<?php include('server.php') ?>
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Advertizer's Profile</title>
+  <link rel="stylesheet" type="text/css" href="register-advertiser.css">
+</head>
+<body>
+  <div class="header">
+  	<h2>Register</h2>
+  </div>
+	
+  <form method="post" action="register-advertiser.php">
+  	<?php include('errors.php'); ?>
+  	<div class="input-group">
+  	  <label>Company Name</label>
+  	  <input type="text" placeholder="Company Name" name="compname">
+  	</div>
+  	<div class="input-group">
+  	  <label>Contact Details</label>
+  	  <input type="email" placeholder="Number 1" name="num1">
+      <input type="email" placeholder="Number 2" name="num2">
+  	</div>
+      
+    <div class="input-group">  
+      <label>Category of Ads</label>
+          <select name="............." style="width: 206px; height: 30px; background: #5F9EA0">
+            <option value=0>End user</option>
+            <option value=1>Advertiser</option>
+            <option value=2>Administrator</option>
+          </select>
+    </div>
+      
+  	<div class="input-group">
+  	  <label>Wallet id</label>
+  	  <input type="" placeholder="" name="walletID">
+  	</div>
+  	<div class="input-group">
+  	  <label>Location</label>
+  	  <input type="text" placeholder="Valid State in India" name="state">
+  	</div>
+
+  	<div class="input-group">
+  	  <button type="submit" class="btn" name="reg-advert">Register</button>
+  	</div>
+
+  </form>
+</body>
+</html>
